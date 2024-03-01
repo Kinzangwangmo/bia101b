@@ -24,3 +24,19 @@ if whatUserTyped =="+":
 if whatUserTyped =="-":
     print('Doing Subtraction')
     print('doing more subtraction')
+    
+print('-------------------')
+if whatUserTyped == "+":
+    print('Doing Addition')
+    if 'a' == 'b':
+        print('a is not b')
+    if 'b' == 'b':
+        print('b is b')
+
+print('doing more addition')
+
+if whatUserTyped == "-":
+    print('Doing Subtraction')
+    print('doing more subtraction')
+
+
