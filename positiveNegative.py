@@ -12,10 +12,13 @@
    #check the TYPE of the input
    #if the type is string, how do you convert to an int?
 #2.Check if the number is positive or negative or zero
-   #need to use if else statement
-   #a ==b(is it equal to)
-   #a != b(not equal to)
-   #
+   # #*  need to use if else statement: 
+    # ! a == b (is it equal to)
+    # ! a != b (Not equal to)
+    # ! a > b (is a greater than b)
+    # ! a < b (is a less than b)
+    # ! a >= b (is a greater than or equal to b)
+    # ! a <= b (is a less than or equal to b)
    #you will be comapring numbers and not string
 #3.print the result
 
@@ -35,4 +38,17 @@ if userInputNumber < 0:
     print('The number is negative')
 
 if userInputNumber == 0:
+    print('The number is zero')
+
+    userInputNumber = float(userInput)
+print('The type of userInputNumber is:', type(userInputNumber))
+
+# 2,3 - if else statement and print
+if userInputNumber > 0:
+    print('The number is positive')
+
+elif userInputNumber < 0:
+    print('The number is negative')
+
+elif userInputNumber == 0:
     print('The number is zero')
