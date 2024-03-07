@@ -13,13 +13,13 @@ userInput = input('Please type your age:')
 #2. Convet user input to number
 userAge = int(userInput)
 
-#3. check isf user vote
+#3. check if user vote
 if userAge > 18:
     print('You can vote')
 else:
     print('You cannot vote')  
 
-#3. check isf user vote
+#4. check if user vote
 if userAge > 18:
     print('You can vote')  
 elif userAge < 18:
