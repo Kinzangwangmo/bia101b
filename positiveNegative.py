@@ -1,0 +1,38 @@
+#objective:
+#Create a program that takes in user input
+#and dertermine if the number is positive or negative
+#print:"Your number is positive" or "Your number is negative"
+
+#*if else
+#*print()
+#*input()
+
+#Break down the problem 
+#1.Take in user input
+   #check the TYPE of the input
+   #if the type is string, how do you convert to an int?
+#2.Check if the number is positive or negative or zero
+   #need to use if else statement
+   #a ==b(is it equal to)
+   #a != b(not equal to)
+   #
+   #you will be comapring numbers and not string
+#3.print the result
+
+# 1. Get user input
+userInput = input('Please type any number: ')
+userInputType = type(userInput)
+print('The type of user input is:', userInputType)
+
+userInputNumber = float(userInput)
+print('The type of userInputNumber is:', type(userInputNumber))
+
+# 2,3 - if else statement and print
+if userInputNumber > 0:
+    print('The number is positive')
+
+if userInputNumber < 0:
+    print('The number is negative')
+
+if userInputNumber == 0:
+    print('The number is zero')
