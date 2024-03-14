@@ -36,20 +36,13 @@ fruits = ['a', 'b', 'c']
 #     # Exercise: check if the string contains vowel
 
 
-
 # Iterate over a range
 # for i in range(5,14,2): #  5 - 13
 #     print(i)
 
-
-
-
-
-
 # Iterate over a range with step
 # for i in range(0, 10, 2):
 #     print(i)  # Output: 0 2 4 6 8
-
 
 #! While Loops
 # Basic while loop
