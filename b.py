@@ -12,6 +12,3 @@ for i in input_str: #! go through each character
         floor_index = floor_index - 1
 # print the final answer
 print('the final floor is', floor_index)
-
-
-
